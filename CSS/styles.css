@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Work Sans";
-    src: url("/assets/fonts/WorkSans-VariableFont_wght.ttf");
+    src: url("/faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf");
 }
 * {
     margin:0;
@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url("/assets/images/background-pattern-mobile.svg"),  hsl(275, 100%, 97%);
+    background: url("/faq-accordion-main/assets/images/background-pattern-mobile.svg"),  hsl(275, 100%, 97%);
     background-repeat: repeat-x;
     font-family: "Work Sans";
     font-size: 16px;
@@ -55,7 +55,7 @@ h1 {
 
 @media (min-width:1440px) {
     body {
-        background: url("/assets/images/background-pattern-desktop.svg"),  hsl(275, 100%, 97%);
+        background: url("/faq-accordion-main/assets/images/background-pattern-desktop.svg"),  hsl(275, 100%, 97%);
         background-repeat: repeat-x;
         
     }
@@ -66,7 +66,7 @@ h1 {
 
 @media (max-width:1439px) and (min-width:376px) {
     body {
-        background: url("/assets/images/background-pattern-desktop.svg"),  hsl(275, 100%, 97%);
+        background: url("/faq-accordion-main/assets/images/background-pattern-desktop.svg"),  hsl(275, 100%, 97%);
         background-repeat: repeat-x;
         
     }
