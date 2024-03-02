@@ -12,14 +12,14 @@ for (let j=0; j<questions.length; j++) {
             answers[j].style.visibility = 'visible';
             answers[j].style.height = 'auto';
             answers[j].style.width = 'auto';
-            document.querySelectorAll('main .question a img')[j].src = 'https://petarnp.github.io/faq-accordion-main/assets/images/icon-minus.svg';
+            document.querySelectorAll('main .question a img')[j].src = '/faq-accordion-main/assets/images/icon-minus.svg';
             document.querySelectorAll('main .question a img')[j].alt = 'Minus Icon';
         }
         else if ( answers[j].style.visibility == 'visible') {
             answers[j].style.visibility = 'hidden';
             answers[j].style.height = '0';
             answers[j].style.width = '0';
-            document.querySelectorAll('main .question a img')[j].src = 'https://petarnp.github.io/faq-accordion-main/assets/images/icon-plus.svg';
+            document.querySelectorAll('main .question a img')[j].src = '/faq-accordion-main/assets/images/icon-plus.svg';
             document.querySelectorAll('main .question a img')[j].alt = 'Plus Icon';
         }
         else {
